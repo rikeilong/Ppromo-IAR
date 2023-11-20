@@ -1,1 +1,1 @@
-# Ppromo-Progressive-Perception-of-Spatial-temporal-Visual-for-Indoor-Action-Recognition
+# Ppromo-IndoorActionRecognition
