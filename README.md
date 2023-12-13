@@ -81,7 +81,7 @@ python run.py --config /config/smarthome-cs/test.yaml
 
 # Note
 
-2024.3.15 - We removed the segment removal function and adaptive late fusion strategy proposed in this paper.
+* 2024.3.15 - We removed the segment removal function and adaptive late fusion strategy proposed in this paper.
 
 
      
