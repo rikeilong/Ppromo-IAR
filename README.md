@@ -83,7 +83,7 @@ python run.py --config /config/smarthome-cs/train.yaml --save /weights/
 * **Testing**
 ```bash
 cd Ppromo-IAR
-python test.py --config /config/smarthome-cs/test.yaml --model /weights/***.pt
+python test.py --config /config/smarthome-cs/test.yaml --model /weights/xxx.pt
 ```
 
 # Note
