@@ -12,7 +12,7 @@ This repo is the official repository of "Pose-promote: Progressive Visual Percep
 ## Dataset
 Please prepare your dataset as the following structure (e.g., Toyata Smarthome):
 ```
--video_frames
+-frames
     -Cook.Cleandishes_p02_r00_v02_c03
         - 1.jpeg
         - ...
@@ -71,6 +71,11 @@ Please prepare your dataset as the following structure (e.g., Toyata Smarthome):
 ```
 -extract_visual_feat_14x14
     -extract_14x14_feat.py
+```
+* **Extraction**
+```
+cd extract_visual_feat_14x14
+python extract_14x14_feat.py --output_dir /mnt/sda/smarthome_res18_14x14 --video_path /home/qilang/PythonProjects/ICME/frames/ --model resnet18
 ```
 ## Get Started (Take Toyota Smarthome Dataset as example)
 First, we need to train the pose encoder individually. For more information, please go to [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN)
