@@ -66,7 +66,7 @@ Please prepare your dataset as the following structure (e.g., Toyata Smarthome):
     -extract_14x14_feat.py
 ```
 ## Get Started (Take Toyota Smarthome Dataset as example)
-First, we need to train the pose encoder individually. For more information, please go to [CTR-GCN github](https://github.com/Uason-Chen/CTR-GCN)
+First, we need to train the pose encoder individually. For more information, please go to [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN)
 * **Training**
 ```bash
 cd Ppromo-IAR
