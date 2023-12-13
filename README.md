@@ -74,7 +74,6 @@ python /pose_train/main.py --config /pose_train/config/smarthome-cs/train_jonit.
 python run.py --config /config/smarthome-cs/train.yaml
 ```
 * **Testing**
-After training SCM and GCM you can test the model by main2_multi.py
 ```bash
 cd Ppromo-IAR
 python run.py --config /config/smarthome-cs/test.yaml
