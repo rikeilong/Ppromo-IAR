@@ -91,6 +91,10 @@ cd Ppromo-IAR
 python test.py --config /config/smarthome-cs/test.yaml --model /weights/xxx.pt
 ```
 
+# Visualization
+
+![image](https://github.com/rikeilong/MCD-forAVQA/blob/main/Overview_of_MCD.jpg)
+
 # Note
 
 * 2024.3.15 - We removed the segment removal function and adaptive late fusion strategy proposed in this paper.
