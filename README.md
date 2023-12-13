@@ -71,12 +71,12 @@ First, we need to train the pose encoder individually. For more information, ple
 ```bash
 cd Ppromo-IAR
 python /pose_train/main.py --config /pose_train/config/smarthome-cs/train_jonit.yaml
-python run.py --config /config/smarthome-cs/train.yaml
+python run.py --config /config/smarthome-cs/train.yaml --save /weights/
 ```
 * **Testing**
 ```bash
 cd Ppromo-IAR
-python run.py --config /config/smarthome-cs/test.yaml
+python test.py --config /config/smarthome-cs/test.yaml --model /weights/***.pt
 ```
 
 # Note
