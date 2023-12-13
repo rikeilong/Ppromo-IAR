@@ -92,8 +92,8 @@ python test.py --config /config/smarthome-cs/test.yaml --model /weights/xxx.pt
 ```
 
 # Visualization
-
-![image](https://github.com/rikeilong/MCD-forAVQA/blob/main/Overview_of_MCD.jpg)
+![image1](https://github.com/rikeilong/Ppromo-IAR/blob/main/exp-1-1.pdf)
+![image2](https://github.com/rikeilong/Ppromo-IAR/blob/main/exp-1-2.pdf)
 
 # Note
 
