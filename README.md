@@ -51,12 +51,19 @@ Please prepare your dataset as the following structure (e.g., Toyata Smarthome):
         - val_data_joint.npy
         - val_label.pkl
 
+-pose_train
+    -config
+        -smarthome-cs
+            - train_jonit.yaml
+            - train_bone.yaml
+            - test_jonit.yaml
+            - test_bone.yaml
+        - ...
+
 -config
     -smarthome-cs
-        - train_jonit.yaml
-        - train_bone.yaml
-        - test_jonit.yaml
-        - test_bone.yaml
+        - train.yaml
+        - test.yaml
     - ...
 ```
 
