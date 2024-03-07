@@ -92,8 +92,8 @@ python test.py --config /config/smarthome-cs/test.yaml --model /weights/xxx.pt
 ```
 
 # Visualization
-![image1](https://github.com/rikeilong/Ppromo-IAR/blob/main/exp-1-1.pdf)
-![image2](https://github.com/rikeilong/Ppromo-IAR/blob/main/exp-1-2.pdf)
+![image1](assets/exp1.jpg)
+![image2](assets/exp2.jpg)
 
 # Note
 
