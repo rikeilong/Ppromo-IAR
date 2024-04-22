@@ -1,0 +1,28 @@
+# feeder
+feeder: feeders.feeder.Feeder
+test_feeder_args:
+  data_path: /mnt/disk72/yql/data/smarthome(normal)/xview1/val_data_bone.npy
+  label_path: /mnt/disk72/yql/data/smarthome(normal)/xview1/val_label.pkl
+  debug: False
+
+# model
+model: model.agcn.Model
+model_args:
+  num_class: 19
+  num_point: 17
+  num_person: 1
+  graph: graph.smarthome.Graph
+  graph_args:
+    layout: 'smarthome17'
+    strategy: 'spatial'
+
+
+# test 
+phase: test
+device: [0,1,2]
+test_batch_size: 16
+weights: ./runs/ntu_cv_agcn_bone-49-29400.pt
+
+work_dir: ./work_dir/ntu/xview/agcn_test_bone
+model_saved_name: ./runs/ntu_cv_agcn_test_bone
+save_score: True

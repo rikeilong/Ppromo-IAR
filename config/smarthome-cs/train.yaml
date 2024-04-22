@@ -1,0 +1,31 @@
+# dataset
+train_dataset_args:
+  visual_feat_dir: /mnt/sda/smarthome_res18_14x14/
+  pose_feat: /home/qilang/PythonProjects/ICME/smarthome/xsub/train_data_joint.npy
+  label_path: /home/qilang/PythonProjects/ICME/smarthome/xsub/train_label.pkl
+  root: /home/qilang/PythonProjects/ICME/frames/
+
+test_dataset_args:
+  visual_feat_dir: /mnt/sda/smarthome_res18_14x14/
+  pose_feat: /home/qilang/PythonProjects/ICME/smarthome/xsub/val_data_joint.npy
+  label_path: /home/qilang/PythonProjects/ICME/smarthome/xsub/val_label.pkl
+  root: /home/qilang/PythonProjects/ICME/frames/
+
+# dataloader
+batch_size: 16
+
+# model
+model_args:
+  num_class: 31
+  num_point: 17
+  num_person: 1
+  pose_graph: graph.smarthome.Graph
+  graph_args:
+    layout: 'smarthome17'
+    strategy: 'spatial'
+  pose_dir: /home/qilang/PythonProjects/ICME/Ppromo/smarthome_cs_ctrgcn_joint-47-64080.pt
+  in_channels: 2
+  t_att: True
+
+# train
+lr: 0.01
